@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+/*===============================================================================*/
+#cabecalho .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho{
+    background-color: #021637;
+    border-bottom: #25579A solid;
+}
+
+#cabecalho img{
+    width: 50px;
+}
+
+#menu li{
+    position: relative;
+    display: inline-block;
+}
+
+#menu ul li:hover{
+    background-color: #25579A;
+    transition: linear .2s;
+}
+
+#menu ul{
+    margin-right: 30px;
+}
+
+#menu a{
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu ul li:hover #submenu{
+    display: block;
+}
+
+#submenu{
+    background-color: #021637;
+    text-align: justify;
+    position: absolute;
+    display: none;
+}
+
+#submenu li{
+    display: block;
+}
+
+#box-inicio .container{
+    padding-top: 8px;
+    max-width: 1000px;
+}
+
+#box-inicio .container img{
+    display: block;
+    margin: 0 auto;
+    width: 550px;
+    float: left;
+    padding-right: 10px;
+    margin-bottom: 30px;
+}   
+
+#box-inicio .container h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#box-inicio .container h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+#box-inicio .container p{
+    font-size: 25px;
+    text-align: justify;
+}
+/*===============================================================================*/
+
+#box-tabela .container{
+    width: 700px;
+    height: 900px;
+    background-color: #0e0e0cb9;
+    border-radius: 10px;
+}
+
+#box-tabela .container img{
+    display: block;
+    margin: 10px auto;
+    padding-top: 40px;
+    width: 600px;
+}
+/*===============================================================================*/
+
+#box-promocoes .container{
+    width: 700px;
+    height: 850px;
+    background-color: #0e0e0cb9;
+    border-radius: 10px;
+}
+
+#box-promocoes .container img{
+    display: block;
+    margin: 10px auto;
+    padding-top: 35px;
+    width: 650px;
+}
+/*===============================================================================*/
+#box-atletas .container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+
+#box-atletas .container img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+    width: 300px;
+}
+
+#box-atletas .container img:hover{
+    transform: scale(1.1);
+}
+
+#box-atletas .container h3{
+    margin-top: 15px;
+    text-align: center;
+    border-bottom: solid;
+}
+
+#box-atletas .container li{
+    margin-left: 30px;
+    list-style-type: none;
+}
+/*===============================================================================*/
